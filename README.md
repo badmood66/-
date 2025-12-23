@@ -1,2 +1,2 @@
-# -
-financesystem
+该financesystem后端采用idea中的java springboot实现，代码在backend中
+前端采用vscode中的vue + vite实现，代码在frontend中
