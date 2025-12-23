@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: finance-system-backend
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/finance_system
+      ?useSSL=false
+      &serverTimezone=Asia/Shanghai
+      &characterEncoding=utf8
+      &allowPublicKeyRetrieval=true
+    username: finance_system
+    password: aSLC7C6kWrnTHT2j
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+mybatis-plus:
+  mapper-locations: classpath*:mapperXML/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
