@@ -1,2 +1,2 @@
-# -
-financesystem
+该财务系统在后端采用idea中的java springboot运行，源代码在文件夹backend中，前端采用vscode中的vue+vite实现，源代码在文件夹frontend中
+
